@@ -1,0 +1,186 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1"/>
+   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="fontawesome/css/all.css"/>
+	<link rel="stylesheet" href="fontawesome/css/fontawesome.min.css"/>
+</head>
+<body>
+ <a href="javascript:topFunction()" id="return-to-top"><i class="icon-chevron-up"></i></a>
+        <div class="header">
+  <a href="#default" class="logo"><img src="StackmintImage/logo.png" height="60" width="60" /></a>
+             <div class="companyname"><a href="#default" class="logo"><h3>Company<span>Name</span></h3></a></div>
+  <div class="header-right" id="sub-header">
+    <a class="active" href="Default.aspx">Home</a>
+    <a href="AboutUs.aspx">About US</a>
+    <a href="Our Fleet.aspx">Our Fleet</a>
+    <a href="Tariff.aspx">Tariff</a>
+    <a href="WhyChooseUs.aspx">Why Choose Us?</a>
+    <a href="HowItWorks.aspx">How It's Works?</a>
+    <a href="ContactUs.aspx">Contact US</a>
+  </div>
+</div>
+<div id="slider">
+<figure>
+<img src="StackmintImage/y car.jpg" height="600" width="500" alt=""/>
+<img src="StackmintImage/car-rental-india.jpg" height="600" width="500" alt=""/>
+<img src="StackmintImage/Yellow_Cabs_in_New_York.jpg" height="600" width="500" alt=""/>
+<img src="StackmintImage/Yellow-Cab-696x391.jpg" height="600" width="500" alt=""/>
+</figure>
+</div>
+    <div class="companyname"><h3 style="text-align:center;color:black"> Our <span>Services</span></h3></div>
+        <hr class="hrs"/>
+  <div class="responsive">
+  <div class="gallery">
+    <div style="text-align:center;background:#e0ac1c;padding:20px"><i class="fas fa-clock fa-3x"></i></div>
+      <div style="text-align:center;color:black;font-size:x-large;text-indent:initial;font-family:Arial Black">Fast & Safe</div>
+    <div class="desc">Add a description of the image here Add a description of the image here. Add a description of the image here. Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+     <div style="text-align:center;background:#e0ac1c;padding:20px"><i class="fas fa-thumbs-up fa-3x"></i></div>
+      <div style="text-align:center;color:black;font-size:x-large;text-indent:initial;font-family:Arial Black">Best Prices</div>
+    <div class="desc">Add a description of the image here Add a description of the image here. Add a description of the image here. Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <div style="text-align:center;background:#e0ac1c;padding:20px"><i class="fas fa-suitcase fa-3x"></i></div>
+      <div style="text-align:center;color:black;font-size:x-large;text-indent:initial;font-family:Arial Black">Package Delivery</div>
+    <div class="desc">Add a description of the image here Add a description of the image here. Add a description of the image here. Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <div style="text-align:center;background:#e0ac1c;padding:20px"><i class="fas fa-phone fa-3x"></i></div>
+      <div style="text-align:center;color:black;font-size:x-large;text-indent:initial;font-family:Arial Black">On Call</div>
+    <div class="desc">Add a description of the image here Add a description of the image here. Add a description of the image here. Add a description of the image here</div>
+  </div>
+</div>
+    <div style="padding:15px;color:white">.</div>
+    <div class="companyname"><h3 style="text-align:center;color:black"> Book Ur <span>Cab</span></h3></div>
+        <hr class="hrs"/>
+<div class="container">
+  <div class="row">
+    <div class="column">
+        <form id="form1" runat="server">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" runat="server" placeholder="Your name.." required="required"/>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" runat="server" placeholder="Your last name.." required="required"/>
+         <label for="lname">Email Id</label>
+        <input type="text" id="eid" name="email" runat="server" pattern="[^ @]*@[^ @]*" placeholder="Your Email Id.." required="required"/>
+        <label for="pn">Mobile Number</label>
+        <input type="text" id="pn" name="pno" runat="server" placeholder="Your Mobile Number.." pattern="[789][0-9]{9}" required="required"/>
+        <label for="from">From</label>
+        <input type="text" id="fr" name="from" runat="server" placeholder="From" required="required"/>
+        <label for="to">To</label>
+        <input type="text" id="to" name="to" runat="server" placeholder="To" required="required"/>
+        <label for="sdt">Journey Start Date</label><br />
+        <input type="text" name="sdate" id="jsd" pattern="\d{1,2}/\d{1,2}/\d{4}" runat="server" placeholder="DD/MM/YYYY" required="required"/><br />
+        <label for="edt">Journey End Date</label><br />
+        <input type="text" name="edate" id="jed" runat="server" pattern="\d{1,2}/\d{1,2}/\d{4}" placeholder="DD/MM/YYYY" required="required"/><br />
+            <asp:Button ID="btn" runat="server" Text="Submit" OnClick="btn_Click" />
+            </form>
+</div>
+      <div class="column">
+          <img src="StackmintImage/car1.jpeg" height="400" width="400"/>
+      </div>
+      </div>
+    </div>
+        <div style="padding:15px;color:white">.</div>
+        <div class="companyname"><h3 style="text-align:center;color:black"> Our <span>Gallery</span></h3></div>
+        <hr class="hrs"/>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="StackmintImage/i11.jpg">
+      <img src="StackmintImage/i11.JPG" width="200" height="200"/>
+    </a><hr />
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="StackmintImage/i12.jpg">
+      <img src="StackmintImage/i12.jpg" width="200" height="200"/>
+    </a><hr />
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="StackmintImage/i13.JPG">
+      <img src="StackmintImage/i13.JPG" width="200" height=200"/>
+    </a><hr />
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="StackmintImage/i14.jpg">
+      <img src="StackmintImage/i14.jpg" width="200" height="200"/>
+    </a><hr/>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+        
+        <div class="clearfix"></div>
+ <!--FOOTER-->
+        <footer class="footer-distributed">
+ 
+			<div class="footer-left">
+          <img src="StackmintImage/logo.png" height="60" width="60"/>
+				<h3>Company<span>Name</span></h3>
+ 
+				<p class="footer-links">
+					<a href="Default.aspx">Home</a>
+					|
+					<a href="Our Fleet.aspx">Our Fleet</a>
+					|
+					<a href="AboutUs.aspx">About</a>
+					|
+					<a href="ContactUs.aspx">Contact</a>
+				</p>
+ 
+				<p class="footer-company-name">© 2019 ABC Solutions Pvt. Ltd.</p>
+			</div>
+ 
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					  <p><span>Nh.57 Dillimore New, 
+						 Aerodrome Darbhanga, Ranipur,</span>
+						 Darbhanga, Bihar 846005</p>
+				</div>
+ 
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+91 22-22222222</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:abcdxyz@gmail.com">abcdxyz@gmail.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About the company</span>
+					Company name is specially built to provide best Cabs in Darbhanga for regular service & Airport Pickup & Drop Service at extremely affordable and customized price for daily pickup, drop and for long journey. Always provides 24*7 customer support to clients.</p>
+				<%--<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-youtube"></i></a>
+				</div>--%>
+			</div>
+		</footer>
+</body>
+</html>
